@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Postcard from './components/Postcards'
+import Postcards from './components/Postcards'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <Postcard/>
+      <Header/>
+      <Postcards/>
     </div>
   );
 }

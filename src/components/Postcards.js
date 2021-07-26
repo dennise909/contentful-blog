@@ -3,7 +3,8 @@ import getblogposts from '../blogpostlist';
 import Card from './Card';
 
 
-class Postcard extends Component {
+
+class Postcards extends Component {
 
 
     constructor(props) {
@@ -22,21 +23,20 @@ class Postcard extends Component {
         this.setState(requestData);
 
     }
-    
     render() {
         let postData = this.state.postCollection.items
         return (
-            <div>
+            <div className="blog-posts">
                 {
                     postData.map((type) =>
-                    <h2>{type.author.name}</h2>
+                    <Card title ={type.postName} intro = {type.intro} url ={type.featuredImage.url}/>
                     )
                 }
-                <Card/>
+            
         </div>
     
         );
     }
 }
 
-export default Postcard;
+export default Postcards;
