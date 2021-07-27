@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import getblogposts from '../blogpostlist';
 import Card from './Card';
+import './Postcards.css'
 
 
 
