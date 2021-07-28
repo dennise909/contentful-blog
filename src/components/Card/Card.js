@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Card.css'
-import Modal from './Modal/Modal';
-import Myform from './Form/Form';
+import Modal from '../Modal/Modal';
+import Myform from '../Form/Form';
 
 class Card extends Component {
     constructor() {
@@ -25,7 +25,7 @@ class Card extends Component {
                 <div onClick={this.showModal}>
                     <img className="card-img" src={this.props.url} alt="postImg" />
                     <div className="container">
-                        <h4><b>{this.props.title}</b></h4>
+                        <h4 className ="card-title"><b>{this.props.title}</b></h4>
                         <p className="card-text">{this.props.intro}</p>
                     </div>
                 </div>

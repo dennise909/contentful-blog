@@ -6,3 +6,29 @@
     font-size: 30px;
     opacity: 1.0;
   }
+
+h1{
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+@media (max-width:1200px){
+  h1{
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: .5em;
+  }
+}
+
+@media (max-width: 600px){
+  h1{
+    font-size: .8em;
+  }
+  h3{
+    display: none;
+  }
+}

@@ -4,3 +4,15 @@
   padding-left: 0;
   justify-content: space-evenly;
 }
+
+@media (max-width:1200px){
+  .blog-posts {
+    align-content: space-between;
+  }
+}
+
+@media (max-width:600px){
+  .blog-posts {
+    align-content: center;
+  }
+}

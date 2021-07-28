@@ -9,7 +9,7 @@ class Header extends Component {
         return (
                 <div className="header">
                     <h1>Colorful Blog</h1>
-                    <p>My supercool Contentful Blog</p>
+                    <h3>My supercool Contentful Blog</h3>
                 </div>
 
         );

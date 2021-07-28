@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import getblogposts from '../blogpostlist';
-import Card from './Card';
+import Card from './Card/Card';
 import './Postcards.css'
 import uuid from 'uuid/v4'
 
