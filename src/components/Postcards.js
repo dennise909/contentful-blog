@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import getblogposts from '../blogpostlist';
 import Card from './Card';
 import './Postcards.css'
-
+import uuid from 'uuid/v4'
 
 
 class Postcards extends Component {
@@ -13,7 +13,7 @@ class Postcards extends Component {
         this.state = {
             postCollection: {
                 items: [
-                ],
+                ],          
             }
         }
     };
@@ -30,7 +30,7 @@ class Postcards extends Component {
             <div className="blog-posts">
                 {
                     postData.map((type) =>
-                    <Card title ={type.postName} intro = {type.intro} url ={type.featuredImage.url}/>
+                    <Card title ={type.postName} intro = {type.intro} url ={type.featuredImage.url} content ={type.content}  key={uuid()}/>
                     )
                 }
             
