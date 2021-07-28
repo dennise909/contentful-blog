@@ -3,15 +3,14 @@ import './App.css';
 import Postcards from './components/Postcards'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar';
+import Banner from './components/Banner/Banner';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Header/>
-      <div>
-        <h4>Recent Posts</h4>
-      </div>
+      <Banner/>
       <Postcards/>
     </div>
   );

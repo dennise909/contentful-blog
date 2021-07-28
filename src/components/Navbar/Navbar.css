@@ -9,6 +9,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     position: sticky;
+    justify-content: space-evenly
   }
   
   li {
