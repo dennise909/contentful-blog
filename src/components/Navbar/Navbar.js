@@ -6,14 +6,14 @@ class Navbar extends Component {
 
     render() {
         return (
-            <div className="navbar">
+            <nav className="navbar">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#home">Posts</a></li>
                     <li><a href="#home">Contact</a></li>
                     <li><a href="#home">About</a></li>
                 </ul>
-            </div>
+            </nav>
 
         );
     }
