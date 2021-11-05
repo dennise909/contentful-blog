@@ -23,19 +23,13 @@ class Postcards extends Component {
         this.setState(dataID);
     };
 
-
-     addID = (object) => {
-        let data = {}
-        let postCollection = {}
-        let items = []
-        let postData = object.postCollection.items
-            postData.map (type => {
-            let newType = { ...type, id: uuid()}
-            items.push(newType)
-            return items
-            });
-        postCollection.items = items
-        data.postCollection = postCollection
+    // function getUserAddres(userData) {...}
+    // function calculateTax(price, country) { // return tax % based on country}
+     addID = (data) => { // Use the data,iterate over it, add id's to each item return the data.
+        const itemsWithIds = data.postCollection.items.map(item => {
+            return {...item, id: uuid()}
+        })
+        data.postCollection.items = itemsWithIds;
         return data
     }
 
@@ -44,14 +38,17 @@ class Postcards extends Component {
         let postData = this.state.postCollection.items
        
         return (
-            <div className="blog-posts">
+            // paragraph with info
+            // display button with input
+            // text input
+            <section className="blog-posts">
                 {
                     postData.map((type) =>
                         <Card title={type.postName} intro={type.intro} url={type.featuredImage.url} content={type.content} key={type.id} />
                     )
                 }
 
-            </div>
+            </section>
 
         );
     }

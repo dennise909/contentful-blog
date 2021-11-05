@@ -21,7 +21,7 @@ class Card extends Component {
 
     render() {
         return (
-            <div className="card">
+            <article className="card">
                 <div onClick={this.showModal}>
                     <img className="card-img" src={this.props.url} alt="postImg" />
                     <div className="container">
@@ -29,10 +29,10 @@ class Card extends Component {
                         <p className="card-text">{this.props.intro}</p>
                     </div>
                 </div>
-                {this.state.show && <Modal handleClose={this.hideModal}>
+                    {this.state.show && <Modal handleClose={this.hideModal}>
                     <Myform content={this.props.content} title ={this.props.title} src={this.props.url}/>
                 </Modal>}
-            </div>
+            </article>
 
         );
     }

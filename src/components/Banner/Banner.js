@@ -8,9 +8,9 @@ class Banner extends Component {
 
     render() {
         return (
-            <div className="banner">
+            <section className="banner">
                 <p className ="banner-text">{this.props.text}</p>
-            </div>
+            </section>
 
         );
     }

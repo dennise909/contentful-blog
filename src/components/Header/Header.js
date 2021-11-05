@@ -7,10 +7,10 @@ class Header extends Component {
 
     render() {
         return (
-                <div className="header">
-                    <h1>Colorful Blog</h1>
-                    <h3>My supercool Contentful Blog</h3>
-                </div>
+                <header className="header">
+                    <h1>Daniela's Blog</h1>
+                    <h3>A colorful adventure from history to coding to art</h3>
+                </header>
 
         );
     }
