@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Colorpallet from '../components/Color Pallet/Colorpallet'
 
 
 class Posts extends Component {
@@ -9,7 +9,7 @@ class Posts extends Component {
         return (
                 <header>
                     <h1>Posts</h1>
-                    <h3>My supercool Contentful Blog</h3>
+                    < Colorpallet/>
                 </header>
 
         );

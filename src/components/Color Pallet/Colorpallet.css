@@ -1,0 +1,13 @@
+.rectangle {
+    height: 50px;
+    width: 100px;
+    display:inline-block;
+    align-content: space-between;
+  }
+  
+  .container{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 21%;
+  }
