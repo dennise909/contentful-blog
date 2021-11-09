@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Colorpallet.css'
 
-class Collorpallet extends Component {
+class Colorpallet extends Component {
     // make a list of colors so they create a different rectangle
     render() {
     const listOfColors = ["#00444d","#699b9b","#ffdb41","#0c0f15","#785a6e","#ff2300","#01bfc7","#a9c6b7",
@@ -18,4 +18,4 @@ class Collorpallet extends Component {
     }
 }
 
-export default Collorpallet;
+export default Colorpallet;
