@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import { Switch, Route } from 'react-router-dom';
 
+console.log(process.env.REACT_APP_CONTENTFUL_API_KEY)
+
 function App() {
   return (
       

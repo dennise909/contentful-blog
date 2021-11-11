@@ -15,7 +15,9 @@
   
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    margin: 0rem 2rem 2rem;
+    width: 80%;
+    height: 100%;
   }
 
   .card-img{
