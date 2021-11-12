@@ -24,7 +24,7 @@ class Card extends Component {
             <article className="card">
                 <div onClick={this.showModal}>
                     <img className="card-img" src={this.props.url} alt="postImg" />
-                    <div className="container">
+                    <div className="card-container">
                         <h4 className ="card-title"><b>{this.props.title}</b></h4>
                         <p className="card-text">{this.props.intro}</p>
                     </div>

@@ -2,7 +2,7 @@
 
 // I want to use the .env key here instead of having an accessToken variable
 const spaceId = 'y4zt3jqibesz'
-const accessToken = 'Hbkx7eCtpIeKUAJ62lRvv_zF6sa8-yz-KwX7UgA5HQM'
+const accessToken = process.env.REACT_APP_CONTENTFUL_API_KEY
 const environment = 'master'
 
 const query = `
