@@ -19,7 +19,6 @@ class Postcards extends Component {
 
     async componentDidMount() { // hook to run data fetch calls 
         const requestData = await getblogposts();
-        console.log(process.env.REACT_APP_CONTENTFUL_API_KEY)
         let dataID = this.addID(requestData)
         //console.log(dataID)
         this.setState(dataID);
