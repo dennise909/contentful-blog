@@ -1,5 +1,8 @@
 .navbar{
   font-size: 1.3em;
+  height: 65px;
+  background-color: #333;
+  font-family: 'Quicksand', sans-serif;
 }
 
 ul {
@@ -7,9 +10,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     position: sticky;
-    justify-content: space-evenly
+    justify-content: center;
   }
   
   li {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import './Contact.css'
 
 
 class Contact extends Component {
@@ -7,11 +9,13 @@ class Contact extends Component {
 
     render() {
         return (
-                <header>
+                <div className="contact-container">
                     <Navbar/>
-                    <h1>Contact</h1>
-                    <h3>My supercool Contentful Blog</h3>
-                </header>
+                    <header className="contact-content">
+                        <h1>Hola</h1>
+                    </header>
+                    <Footer/>
+                </div>
 
         );
     }

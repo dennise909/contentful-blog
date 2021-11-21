@@ -41,5 +41,8 @@
       "not dead",
       "not op_mini all"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^6.14.25"
   }
 }
